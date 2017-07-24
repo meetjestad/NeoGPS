@@ -28,7 +28,7 @@
 // to determine when the GPS quiet time begins, and thus
 // when you can perform "some" time-consuming operations.
 
-#define LAST_SENTENCE_IN_INTERVAL NMEAGPS::NMEA_RMC
+#define LAST_SENTENCE_IN_INTERVAL NMEAGPS::NMEA_GLL
 
 // NOTE: For PUBX-only configs, use
 //          (NMEAGPS::nmea_msg_t)(NMEAGPS::NMEA_LAST_MSG+1)
